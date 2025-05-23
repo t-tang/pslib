@@ -1,0 +1,28 @@
+{
+  "name": "ps-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "push": "webpack && clasp push",
+    "deploy": "webpack && clasp push && clasp deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/plugin-transform-typescript": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/google-apps-script": "^1.0.97",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
